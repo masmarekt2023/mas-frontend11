@@ -1,0 +1,356 @@
+{
+  "navbar": {
+    "links": ["Home", "Services", "About us", "Contact us", "Get Started"]
+  },
+  "login": {
+    "title": "Login in Med - Sal",
+    "p": "Don’t have an account with us? ",
+    "create": "Create account",
+    "inputFields": {
+      "email": "Email Address",
+      "password": "Password"
+    },
+    "err": "This field is required",
+    "button": "Login in Med - Sal",
+    "forget": "Forget password ?",
+    "TitleImg": "LogIn in Med - Sal ...",
+    "resetPar": "We are a platform that seeks to connect clinical patients with doctors in various medical specialties and pharmacies all over the Emirates."
+  },
+  "forget": {
+    "title": "Forget Password",
+    "p": "We are here to help you, So enter the email for reset password.",
+    "placeholder": "Email address",
+    "erremail": "This field is required",
+    "button": "Send Verification Code",
+    "resetTitle": "Reset password for Med - Sal ...",
+    "resetPar": "We are a platform that seeks to connect clinical patients with doctors in various medical specialties and pharmacies all over the Emirates."
+  },
+  "reset": {
+    "title": "Reset Password",
+    "p": "We are here to  help you, So enter new password then confirm it. ",
+    "placeholder1": "New Password",
+    "placeholder2": "Confirm Password",
+    "err": "password must be more than 4",
+    "errcunfirm": "please match the password",
+    "button": "Change Password",
+    "resetTitle": "Reset password for Med - Sal ...",
+    "resetPar": "We are a platform that seeks to connect clinical patients with doctors in various medical specialties and pharmacies all over the Emirates."
+  },
+  "register": {
+    "headPatient": "Register as a Patient in Med - Sal",
+    "headProvider": "Register as a Service Provider in Med - Sal",
+    "loginLink": "Login",
+    "loginQuest": "Already have a Med - Sal account?",
+    "toggleToProvider": "Register as a Service Provider",
+    "toggleToPatient": "Register as a Patient",
+    "action": "Create Account in Med - Sal",
+    "fieldRequier": "This field is requiered",
+    "passwordMatch": " The password not matched",
+    "inputFields": {
+      "email": "Email Address",
+      "password": "password",
+      "confirmPassword": "Confirm Password",
+      "submit": "Login in med - sal",
+      "number": "Contact Number",
+      "buisness": "Buisness Name",
+      "bank": "Bank Name",
+      "iban": "IBAN Number",
+      "swift": "Swift Code",
+      "serviceType": "Service Type",
+      "bankDetailes": "Information for Bank Detailes",
+      "file": "Upload File",
+      "bankInfo": "Banking Information",
+      "UploadFile": "Upload File PDF"
+    },
+    "services": {
+      "doctor": "Doctor",
+      "pharmacy": "Pharmacy",
+      "hospital": "Hospital",
+      "lab": "Lab",
+      "clinic": "Clinic"
+    }
+  },
+  "ImageContainer": {
+    "aboutUs": "We are a platform that seeks to connect clinical patients with doctors in various medical specialties and pharmacies all over the Emirates."
+  },
+  "confirmEmail": {
+    "head": "Confirm Email",
+    "resendLink": "Click here to resend",
+    "resendQuest": "We’re send a password recover, So please chick your email inbox and click on the provided link to reset your password. If you don’t receive email, OR",
+    "back": "Back To Login...",
+    "action": "Confirm Email"
+  },
+  "verification": {
+    "head": "Verification Code",
+    "p": "Enter the verification code, We just sent you on your email address.",
+    "resend": "Resend Code ?",
+    "button": "Send Code"
+  },
+  "contact": [
+    "Contact US",
+    "Feel Free to contact us, If you need some help.",
+    "Full Name",
+    "Email Address",
+    "Message"
+  ],
+  "Services_Home": [
+    "Our Services & Products",
+    "We seek the best ways for your comfort, so we tried to put in your hands our best services in a smooth and comfortable manner."
+  ],
+  "AboutUs": {
+    "main": [
+      "About us",
+      "We are a platform that seeks to connect clinical patients with doctors in various medical specialties and pharmacies all over the Emirates, So it has the following features:"
+    ],
+    "info": [
+      {
+        "title": "Locate the patient to the nearest delivery service.",
+        "desc": "We can determine the patient's location and determine the nearest service to him, so that it is easy and convenient for him to access the service"
+      },
+      {
+        "title": "Contain Cloud payments.",
+        "desc": "We have developed an electronic payment feature that makes it easier for the patient to pay money for the services provided to him via the Internet."
+      },
+      {
+        "title": "Filter depending on the current location.",
+        "desc": "We filtered all services close to the patient and vice versa"
+      }
+    ]
+  },
+  "Services": {
+    "main-title": "Our Services",
+    "discrption": "We seek the best ways for your comfort, so we tried to put in your hands our best services in a smooth and comfortable manner",
+    "services": ["Dental", "Neurology", "See more services"]
+  },
+  "testimonals": {
+    "main_title": "What Our Clients Say",
+    "testimonal": "I've been using this site since it came out! I really like how simple and quick the services are, and I would love to have a discussion with you to explain why and how we provide the service. Thank you for the great work you do!"
+  },
+  "get_app": {
+    "main_title": "Let ‘s Strive For a More happy Life With Med - Sal",
+    "descrption": "This is achieved through access to your treatment and service faster and smoother than before.",
+    "button": "So, Let’s Started"
+  },
+
+  "Hero": [
+    "Welcome to Med - sal",
+    "Get The Best Health Care Services For a More Comfortable Life.",
+    " Don't let illness or ill health sneak up on you. So, get our health services, and get your most up-to-date health information form in over 155,000 compatible and clinically verified medical journals.",
+    "So, Let’s Started",
+    "High-Quality Dental Care"
+  ],
+  "services": [
+    "Categories",
+    "Location",
+    "Choose yourself",
+    "Price",
+    "Rating",
+    "Search For Another"
+  ],
+  "error4": [
+    "Page Not Found !",
+    "Sorry, We couldn’t the find page you looking for.",
+    "Back To Page"
+  ],
+  "error3": [
+    "Access Denied !",
+    "Sorry, But you don’t have permission to access this page.",
+    "Back To Page"
+  ],
+  "nodata": "No Data Found",
+  "NavBar_Dashbord": {
+    "search": "search"
+  },
+  "DashPath": ["Dashbord"],
+  "sideBar_Dashbord": {
+    "main_title": ["dashboard"],
+    "dashboard_menu": ["About Users", "About dashboard"],
+    "AdminDashboard_about_users_menu": [
+      "All Users",
+      "Services",
+      "Requests",
+      "Report",
+      "Products"
+    ],
+    "serviceProvider_about_users_menu": [
+      "Appointment",
+      "Services",
+      "Products",
+      "Report"
+    ],
+    "serviceProvider_Appointment" : [
+
+      "Request Appointment",
+      " Table Appointment"
+    ],
+    "AdminDashbord_all_users_menu": [
+      " Service Providers",
+      " Patient Users",
+      " Admin Users"
+    ],
+    "about_dashboard_menu": ["Settings", "Sign Out"],
+    "Admin_dashboard_Services": [
+      "Doctors Services",
+      "Hospital Services",
+      "Pharmacy Services",
+      "Clinic Services",
+      "Lab Services"
+    ],
+
+    "serviceProvider_dashboard_products": ["Request Product", "Table Product"],
+    "Contact_us_discrption": "We hope that our website will be useful to you and we are happy for you to ",
+    "contact_us": " contact us"
+  },
+  "serviceProvider_dashboard_Services": ["Request Services", " Table Services"],
+  "Med_sal_dashbord": {
+    "main_title": "med - Sal for  Admin - Dashboard ",
+    "descrption": "The control panel for the med-sal website, its users, and its services"
+  },
+  "profile": "Edit Profile",
+
+  "sitting": [
+    "Personal Information",
+    "Update your photo and personal information here",
+    "If your want to change password Go  ot ",
+    "Here",
+    "Click to upload your photo or drag",
+    "Edit My Profile",
+    "Done"
+  ],
+
+  "noNotification": ["Notification", "Not Found Notification"],
+  "notification": ["Notification"],
+  "request_edit": [
+    "Request For Edit My Profile",
+    "Saturday,  September 2023 ",
+    "Request:",
+    "If you would like to amend your personal information, please send a request with the information you would like to change.",
+    "Your Change Info: ",
+    "Please write what changes you want to make.",
+    " Send Request"
+  ],
+  "report_admin_page": {
+    "department": [
+      "All Users - 100.000",
+      "All Services - 190.000",
+      "All Product - 250.000"
+    ],
+    "department_des": [
+      "All users (supper admin, admin, service provider, patient)",
+      "All services from (doctor, hospital, lab, clinic, pharmacy)",
+      "All product (medical drugs, medical devices, cosmetic ointments)"
+    ],
+    "chart_des": [
+      "All users as (supper admin, admin, service provider, patient) and in this website the users is increased. ",
+      "All services from (doctor, hospital, lab, clinic, pharmacy) and in this website the users is increased.  ",
+      "All Product as (medical drugs, medical devices, cosmetic ointments) and in this website the users is increased. "
+    ]
+  },
+  "report_serice_provider": {
+    "department": [
+      "All Users - 100.000",
+      "All Services - 190.000",
+      "All Product - 250.000"
+    ]
+  },
+
+  "services_map": [
+    "Please choose the appropriate location for you so that we can determine the appropriate products and services for you according to the location you have chosen."
+  ],
+  "details": [
+    "Review & Rating",
+    "Reviews",
+    "Make a Reservation",
+    "If you want to book an appointment, please fill out this information.",
+    "Booking Time",
+    "Booking Date",
+    "Note",
+    "Make a Reservation",
+    "Our Schedule",
+    "Our Location",
+    "From",
+    "To",
+    "Sun",
+    "Mon",
+    "Tue",
+    "Wed",
+    "Thu",
+    "Fri",
+    "Sat"
+  ],
+  "search": ["Search About Services OR ", "Product Here !", "Search..."],
+  "footer": [
+    "We are a platform that seeks to connect clinical patients with  doctors in various medical specialties and pharmacies all over the Emirates.",
+    "Subscribe to our Quarterly newsletter ....",
+    "Subscribe",
+    "Enter your email "
+  ],
+  "editProduct": [
+    "Edit Product",
+    "Register Date in",
+    "for this product",
+    "If you would like to add discounts please",
+    "click Here",
+    "Change Detailes Product"
+  ],
+  "discount": [
+    "Edit Discounters",
+    "Add discounts to the product that has been added now.",
+    "Price before discounter:",
+    "Price after discounter:",
+    "Edit  Discount"
+  ],
+  "viewProduct": [
+    "View Products",
+    "Register Date in:",
+    " for this product",
+    "Close View Product"
+  ],
+  
+  "addProuct": [
+    "Add Product",
+    " You can add your product from here. ",
+    "If you would like to add discounts please click  ",
+    " Here"
+
+  ],
+  "editServices": [
+    "Edit Services",
+    "Register Date in",
+    "for this Service",
+    "If you would like to add discounts please",
+    "click Here",
+    "Change Detailes Service"
+  ],
+  "viewService": [
+    "View Services",
+    "Register Date in:",
+    " for this Service",
+    "Close View Service"
+  ],
+  "AddServices": [
+    "Add Services",
+    "You can add your services from here.",
+    "Services Name",
+    "Service Type",
+    "Description",
+    "Location",
+    "Price",
+    "If you would like to add discounts please ",
+    "click Here",
+    "Add New Services"
+  ],
+  
+  "Appointment": [
+    "Welcome, Rawan, to Med-sal",
+    "  The service provider at Med - sal in the doctors department can provide his services through these pages. We hope that they will be useful to you.",
+    "Last Patient"
+  ],
+  "tableAppointment": [
+    "Month",
+    "Schedule",
+    "Day",
+    "Appointment",
+    "Table Appointment"
+  ]
+}

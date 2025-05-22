@@ -1,0 +1,18 @@
+.headTitle{
+    color: white;
+    font-size: 40px;
+    font-weight: bolder;
+    margin: 5px 10px;
+    text-shadow: 0px 0px 10px #fff, 0px 0px 20px #640D5F, 0px 0px 40px #640D5F, 0px 0px 50px #640D5F;
+}
+
+
+
+@media (max-width: 480px) {
+    .headTitle{
+        font-size:30px;
+    margin: 2px;
+
+
+    }
+}

@@ -1,0 +1,28 @@
+.LandingSection{
+    display: flex;
+    flex-direction: column;
+    /* background: linear-gradient(to left, #0008, #640D5F) !important; */
+    box-shadow: 0px 4px 15px rgba(0, 5, 0, 0.5);
+    position: relative;
+    max-width: 100%;
+    /* height: 600px; */
+    border-radius: 50px;
+    color: white;
+  
+   margin-top: 40px;
+   /* padding-bottom: 20px; */
+   overflow: hidden;
+  
+  
+  }
+ 
+
+
+  @media (max-width: 480px) {
+    .LandingSection{
+      gap:30px;
+      /* padding-bottom: 10px; */
+      padding-top: 10px;
+    
+    }
+}

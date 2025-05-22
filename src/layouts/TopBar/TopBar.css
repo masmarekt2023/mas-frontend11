@@ -1,0 +1,355 @@
+.header {
+  display: flex;
+  align-items: center; 
+  padding: 0px 10px; 
+  font-family: 'Calibri', sans-serif;
+  color: #ffffff;
+  background-color: #cdc8c8;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    
+}
+.right{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-links1{
+  position: relative;
+   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  gap: 1rem; 
+}
+
+.nav-links1 ul {
+  list-style-type: none;
+  display: flex;
+  gap: 12px;
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 10px; 
+}
+
+.nav-links1 ul a {
+  color:  #dadada;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.nav-links1 ul a:hover {
+  color:  #8602ba; /* لون التمرير */
+}
+
+
+
+
+.logo1 {
+  height: 55px;
+  width: 55px;
+  margin-left: 0px;
+  margin-right: 20px;
+}
+
+:dir(rtl) .logo1{
+  margin-left: 20px;
+  margin-right: 0;
+}
+
+
+
+
+.search-container1 {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  flex-grow: 1; 
+  margin: 0; 
+ 
+}
+
+.search-container2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  flex-grow: 1; 
+  margin: 0; 
+ 
+}
+
+
+.search-bar {
+  height: 35px;
+ width: 100px;
+  border-radius: 15px;
+  color: #000;
+  border: #640D5F 1px solid;
+  background-color: rgb(202, 190, 250);
+  transition: all 0.4s ease; 
+  flex-grow: 1; 
+  margin: 10px; 
+  padding-left: 10px;
+}
+
+.search-icon {
+  font-size: 22px; 
+  color: rgb(80, 3, 95);
+  cursor: pointer;
+  margin-top: 22px;
+}
+
+.burger-icon {
+  display: none; 
+  background: none;
+  border: none;
+  font-size: 25px;
+  cursor: pointer;
+  margin-right: 10px;
+  color: #dadada;
+  /* text-align: end; */
+
+}
+
+.burger-icon:hover{
+  background: none;
+  color: #8602ba;
+}
+
+.nav-links1.active {
+  display: block; 
+
+}
+
+.btn_group{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.test{
+  display: none;
+}
+
+
+/* Add to your CSS file */
+@media (max-width: 1250px) {
+  /* Ensure dropdown takes full width in mobile */
+  .nav-links1 li[ref="aboutDropdownRef"] {
+    width: 100%;
+    text-align: center;
+  }
+
+  /* Make dropdown appear inline (not floating) in mobile */
+  .nav-links1 li[ref="aboutDropdownRef"] > div {
+    position: relative !important;
+    top: unset !important;
+    left: unset !important;
+    transform: none !important;
+    width: 100%;
+    margin-top: 10px;
+    box-shadow: none;
+    border-radius: 0;
+  }
+
+  /* Adjust spacing for dropdown items */
+  .nav-links1 li[ref="aboutDropdownRef"] button {
+    width: 100%;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 1250px) {
+  header {
+    
+    justify-content: space-between;
+  }
+
+.search-container1{display: flex;}
+.search-container2{display: none;}
+
+  .test{
+    display: block;
+  }
+
+  .test2{
+    display: none;
+  }
+  
+  .burger-icon {
+    display: block; /* إظهار الزر في الشاشات الصغيرة */
+  }
+
+  .nav-links1 {
+    display: none; /* إخفاء الروابط في الوضع العادي */
+    position: absolute;
+    top: 100%; 
+    right: 0; 
+    background-color: rgba(0, 0, 0, 0.77);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 25%;
+    overflow: hidden;
+    padding:20px;
+    z-index: 1000;
+    transition: right 0.5s ease; 
+    height: 100vh;
+  
+  }
+  .nav-links1.active{
+   display: flex;
+   flex-direction: column-reverse;
+   align-items: center;
+   text-align: center;
+   justify-content: start;
+  }
+ 
+
+  .nav-links1 ul {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .nav-links1 li {
+    list-style: none;
+  }
+
+  .nav-links1 a, .nav-links1 button {
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.3s ease;
+  }
+  .btn_group{
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  }
+  .logo1_contanier{
+    width: 30%;
+  }
+  .burger-icon {
+    width: 30%;
+  }
+
+
+}
+
+@media (max-width: 786px) {
+  .header {
+    height: auto;
+
+    justify-content: space-between;
+
+   
+  }
+  
+  .burger-icon {
+    display: block;
+  }
+
+  .nav-links1 {
+   width: 50%;
+  
+  }
+
+ 
+
+  .nav-links1 ul {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .nav-links1 li {
+    list-style: none;
+  }
+
+  .nav-links1 a, .nav-links1 button {
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.3s ease;
+  }
+  .nav-links1 .primaryButton{
+    width: 140px;
+ 
+}
+  .btn_group{
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  }
+  .logo1_contanier{
+    width: 30%;
+  }
+  .burger-icon {
+    width: 30%;
+  }
+}
+
+/* استجابة الشاشات الصغيرة */
+@media (max-width: 480px) {
+  .header {
+    height: auto;
+    justify-content: space-between;
+
+   
+  }
+  
+  .burger-icon {
+    display: block; 
+  }
+
+  
+
+  
+
+  .nav-links1 ul {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .nav-links1 li {
+    list-style: none;
+  }
+
+  .nav-links1 a, .nav-links1 button {
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.3s ease;
+  }
+  .nav-links1 .primaryButton{
+      width: 132px;
+   
+  }
+  .btn_group{
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  }
+  .btn_group .Buy_A_Mas, .btn_group .ConnectWallet{
+    display: none;
+  }
+  .logo1_contanier{
+    width: 30%;
+  }
+  .burger-icon {
+    width: 30%;
+  }
+}
+
+
+
+
+

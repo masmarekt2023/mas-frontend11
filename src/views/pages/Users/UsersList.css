@@ -1,0 +1,100 @@
+
+.buttonContainer {
+    position: relative;
+    overflow: hidden;
+    border-radius: 6px;
+    background: #581454;
+    text-align: center;
+    width: 200px;
+    left: 0px;
+    top: 0px;
+    z-index: 10;
+    cursor: pointer;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.animatedBackground {
+    content: '';
+    background: conic-gradient(transparent 270deg, rgb(196, 1, 218), transparent);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    aspect-ratio: 1 / 1;
+    width: 100%;
+    animation: rotate 3s linear infinite;
+    z-index: -1;
+  }
+  
+  .innerBlurEffect {
+    content: '';
+    background: #5121619c;
+    border-radius: inherit;
+    position: absolute;
+    inset: var(--offset);
+    height: calc(100% - 2 * var(--offset));
+    width: calc(100% - 2 * var(--offset));
+    backdrop-filter: blur(40px);
+  }
+  
+  @keyframes rotate {
+    from {
+      transform: translate(-50%, -50%) scale(1.4) rotate(0turn);
+    }
+    to {
+      transform: translate(-50%, -50%) scale(1.4) rotate(1turn);
+    }
+  }
+ 
+  
+  /* Table Wrapper Styles */
+  .tableWrapper {
+    position: relative;
+    overflow: hidden;
+    border-radius: 20px;
+    background: #581454;
+    padding: 5px;
+  }
+
+  .tableindex{
+    z-index: 1;
+    position: relative;
+  }
+
+  
+  .tableAnimatedBackground {
+    content: '';
+    background: conic-gradient(transparent 270deg, rgb(196, 1, 218), transparent);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    aspect-ratio: 1 / 1;
+    width: 100%;
+    animation: rotate 3s linear infinite;
+    
+  }
+  
+  .tableInnerBlurEffect {
+    content: '';
+    background: #5121619c;
+    border-radius: inherit;
+    position: absolute;
+    inset: var(--offset);
+    height: calc(100% - 2 * var(--offset));
+    width: calc(100% - 2 * var(--offset));
+    backdrop-filter: blur(40px);
+    z-index: -1;
+  }
+
+  @keyframes rotate {
+    from {
+      transform: translate(-50%, -50%) scale(2.5) rotate(0turn);
+    }
+    to {
+      transform: translate(-50%, -50%) scale(2.5) rotate(1turn);
+    }
+  }

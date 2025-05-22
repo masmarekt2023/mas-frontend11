@@ -1,0 +1,117 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+.custom-loader {
+  /* width:25px; */
+  /* height:12px; */
+  background: radial-gradient(circle closest-side, #5a81fd 90%, #0000) 0% 50%,
+    radial-gradient(circle closest-side, #5a81fd 90%, #0000) 50% 50%,
+    radial-gradient(circle closest-side, #5a81fd 90%, #0000) 100% 50%;
+  background-size: calc(100% / 3) 100%;
+  background-repeat: no-repeat;
+  animation: d7 1s infinite linear;
+}
+@keyframes d7 {
+  33% {
+    background-size: calc(100% / 3) 100%, calc(100% / 3) 100%,
+      calc(100% / 3) 50%;
+  }
+  50% {
+    background-size: calc(100% / 3) 100%, calc(100% / 3) 50%,
+      calc(100% / 3) 100%;
+  }
+  66% {
+    background-size: calc(100% / 3) 50%, calc(100% / 3) 100%,
+      calc(100% / 3) 100%;
+  }
+}
+
+
+
+.rubik {
+  font-family: "Rubik", serif;
+  font-optical-sizing: auto;
+  /* font-weight: <weight>; */
+  font-style: normal;
+}
+
+.raleway{
+    font-family: "Raleway", serif;
+    font-optical-sizing: auto;
+    /* font-weight: <weight>; */
+    font-style: normal;
+  }
+
+.button_gr{
+    /* background-image: linear-gradient(to right top, #621B9D, #7E28C0, #B444EF,#BA49F2,#B845E8); */
+
+    background-image: linear-gradient(to right top, #6b2b99, #8438af, #9f45c6, #bb52dc, #d760f3);
+}
+.bg-gideient{
+ 
+     background-image: url('./assets/graident.jpg');
+     background-position: center;
+     background-size: cover;
+     background-repeat: no-repeat;
+   
+
+    
+    /* background-image: linear-gradient(to right, #1d4edd, #323eb1, #343088,  #2e2362, #23183f, #26183f, #29173f, #2c173f, #451e60, #622382, #8224a4, #a620c6); */
+
+}
+.bg-gideient-rotate{
+ 
+  background-image: url('./assets//graident-rotate.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* rotate: 180deg; */
+
+ 
+
+
+}
+
+
+.gradient-text {
+    /* background-color: #f3ec78; */
+    background-image: linear-gradient(45deg, #482bb3 , #13eed4 ,#17e791 );
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+}
+.gradient-text_box {
+  /* background-color: #f3ec78; */
+  background-image: linear-gradient(90deg, #6e2bbb ,#4e9add );
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-text-fill-color: transparent;
+}
+
+.neon {
+    color: #17e791;
+    text-shadow:
+      0 0 5px #17e791,
+      0 0 10px #f0ecec,
+      0 0 15px #13eed4;
+  }
+  .clip-path-half-circle {
+    clip-path: ellipse(100% 50% at 50% 100%);
+  }
+  .rtl {
+    direction: rtl;
+    text-align: right;
+  }
+  
+  .ltr {
+    direction: ltr;
+    text-align: left;
+  }

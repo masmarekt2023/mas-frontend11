@@ -1,0 +1,191 @@
+.card-3 {
+  margin: 10px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  box-sizing: border-box;
+  width: 220px;
+  max-width: 250px;
+  height: auto; 
+  min-height: 300px;
+  padding: 10px;
+  border-radius: 30px;
+  background-color: rgba(85, 84, 84, 0.7);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+  .speciality {
+    height: 20px; /* Reserve space for the text */
+    visibility: hidden; /* Hide the element but keep the space */
+}
+
+.speciality:not(:empty) {
+    visibility: visible; /* Show the element if it has content */
+}
+  
+  .card-3:hover {
+    transform: scale(1.0); /* تكبير الكرت */
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3); /* تحسين الظل عند التحويم */
+  }
+  
+  .card-3 img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 30px;
+    transition: transform 0.3s ease; /* تأثير التحريك للصورة */
+  }
+  .contentContainer{
+    /* padding-top: 10px; */
+    padding: 2px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  width: 100%;
+  }
+
+  .media-cont{
+    width: 100%;
+    height: 150px;
+  }
+  .media-cont img{
+    height: 150px;
+    object-fit: fill;
+  }
+
+  .media-contm{
+    width: 100%;
+    height: 150px;
+  }
+  .media-contm img{
+    height: 150px;
+    object-fit: fill;
+  }
+
+  
+
+  
+  .card-3:hover {
+    transform: scale(1.01); 
+  }
+  .contentContainer h3{
+    font-size: 15px;
+    font-weight: 400;
+    color: white !important;
+    text-align: center;
+    margin: 8px 0;
+  }
+
+  
+
+  
+  .contentContainer p {
+    font-size: 12px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 10px;
+    opacity: 0.6;
+    color: white !important;
+  }
+  
+  .card-3 .buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: auto;
+    color: #ffffff6e;
+  }
+  
+  .card-3 .primary {
+    border: 1px solid #640d57;
+    background: transparent;
+    font-weight: 500;
+    color: #f8f8f8;
+    text-align: center;
+    font-family: inherit;
+    font-size: 12px;
+    border-radius: 40px;
+    transition: background 0.3s, transform 0.3s ease;
+  }
+  
+  .card-3 button.primary {
+    background: linear-gradient(to top right, #2f003c,#2f003c );
+    color: #ffffff;
+    margin-right: 5px;
+  }
+  
+  .card-3 button:hover {
+    background: linear-gradient(to top right,#2f003c, #67107f);
+  }
+  
+  .ellipsis {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  .itemSmallImage{
+    width: 60px;
+    height: 60px;
+   
+  }
+  
+
+@media(max-width: 800px){
+  .itemSmallImage{
+    width: 50px;
+    height: 50px;
+  }
+}
+
+  /* استجابة الشاشات المتوسطة */
+@media (max-width: 768px) {
+  .card-3 {
+    /* الكرت يأخذ عرض الشاشة بالكامل */
+   max-height: auto; /* الارتفاع يتكيف مع المحتوى */
+  
+}
+
+    .card-3 h3 {
+        font-size: 15px; /* تقليل حجم الخط ليتناسب مع الشاشات الصغيرة */
+    }
+
+    .card-3 h3:nth-child(2) {
+        font-size: 10px; /* تعديل حجم العنوان الفرعي */
+    }
+
+    .card-3 p {
+        font-size: 10px; /* تقليل حجم الخط للنصوص */
+    }
+
+  
+
+  
+}
+
+/* استجابة الشاشات الصغيرة */
+@media (max-width: 480px) {
+    .card-3 {
+         /* الكرت يأخذ عرض الشاشة بالكامل */
+        max-height: auto; /* الارتفاع يتكيف مع المحتوى */
+       
+    }
+
+    
+    .contentContainer p {
+
+      margin-bottom: 5px;
+    
+    }
+    .card-3 h3 {
+        font-size: 14px; 
+        margin: 0;
+    }
+
+    .card-3 h3:nth-child(2) {
+        font-size: 13px; /* تقليل حجم العنوان الفرعي أكثر */
+    }
+
+  
+}

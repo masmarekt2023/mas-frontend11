@@ -1,0 +1,16 @@
+.primaryButton{
+    background: linear-gradient(to bottom right, #640D5F, rgb(199, 113, 238));
+    border: none;
+    padding: 10px 15px;
+    border-radius: 15px;
+    cursor: pointer;
+    width: auto;
+    transition: background-color 0.3s;
+    color: white;
+    min-height: 50px;
+    width: 150px;
+}
+.primaryButton :hover{
+    background:linear-gradient(to bottom right, #640D5F, rgb(8, 8, 56));
+}
+

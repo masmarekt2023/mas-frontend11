@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+/* 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'poppins',sans-serif;
+} */
+
+.SignupStyle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-image: url('/assets/Images/logbackground.webp');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.section2 {
+    position: relative;
+    max-width: 600px;
+    background-color: rgba(146, 46, 168, 0.196);
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+    backdrop-filter: blur(55px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:2rem 3rem;
+
+}
+
+.reg-header {
+    font-size: 2rem;
+font-weight: bold;
+    text-align: center;
+    color: #2d013a;
+    font-family: Arial, Helvetica, sans-serif !important;
+}
+
+.mar {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+  
+  .country-button:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+  
+  .country-flag {
+    display: inline-block;
+    width: 24px;
+    height: 16px;
+    background-size: cover;
+    margin-right: 8px;
+  }
+
+
+/*  */
+
+.register {
+    font-size: 0.9rem;
+    color: #fff;
+    text-align: center;
+    margin: 25px 0 10px;  
+}
+
+.register p a {
+    text-decoration: none;
+    /* color: #fff; */
+    font-weight: 600;
+    color: #2d013a;
+}
+
+.register p a:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 26.3.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 70 60" style="enable-background:new 0 0 70 60;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:url(#Subtraction_20_00000081614085889569407700000004951543617197041854_);}
+	.st1{fill:url(#Subtraction_21_00000132778951612371370590000016404846739056218757_);}
+	.st2{fill:url(#Subtraction_22_00000013879338913961692030000009113049236902212023_);}
+	.st3{fill:url(#Rectangle_135_00000041988448217602334910000000827179150515126148_);}
+	.st4{fill:url(#Rectangle_136_00000070107059379460834980000001964994233427244209_);}
+</style>
+<g id="Group_214" transform="translate(-678 -357)">
+	<g id="Component_1_26" transform="translate(678 357)">
+		
+			<linearGradient id="Subtraction_20_00000036244071477437666770000001480107108856085410_" gradientUnits="userSpaceOnUse" x1="-634.1964" y1="399.7808" x2="-634.1964" y2="398.7808" gradientTransform="matrix(46.2096 0 0 -23.1049 29262.5293 9257.5664)">
+			<stop  offset="0" style="stop-color:#2D013A"/>
+			<stop  offset="1" style="stop-color:#760072"/>
+		</linearGradient>
+		<path id="Subtraction_20" style="fill:url(#Subtraction_20_00000036244071477437666770000001480107108856085410_);" d="
+			M-20.4,43.8h-16l-7.1-7.1l-7.1,7.1h-16l23.1-23.1L-20.4,43.8L-20.4,43.8z"/>
+		
+			<linearGradient id="Subtraction_21_00000132783016509883661030000004140385943133143717_" gradientUnits="userSpaceOnUse" x1="-623.8099" y1="399.1794" x2="-623.8099" y2="398.1794" gradientTransform="matrix(25.0568 0 0 -22.2266 15609.7246 8893.9502)">
+			<stop  offset="5.327789e-09" style="stop-color:#2D013A"/>
+			<stop  offset="1" style="stop-color:#760072"/>
+		</linearGradient>
+		<path id="Subtraction_21" style="fill:url(#Subtraction_21_00000132783016509883661030000004140385943133143717_);" d="
+			M-10.7,43.8h-5.7l-17.1-17.1l5.1-5.1l20,20C-8.5,41.5-10.7,43.8-10.7,43.8z"/>
+		
+			<linearGradient id="Subtraction_22_00000167368189362297724690000006123886389708587947_" gradientUnits="userSpaceOnUse" x1="-623.8099" y1="399.2116" x2="-623.8099" y2="398.2116" gradientTransform="matrix(25.0568 0 0 -22.2719 15564.7812 8912.7129)">
+			<stop  offset="0" style="stop-color:#2D013A"/>
+			<stop  offset="1" style="stop-color:#760072"/>
+		</linearGradient>
+		<path id="Subtraction_22" style="fill:url(#Subtraction_22_00000167368189362297724690000006123886389708587947_);" d="
+			M-70.6,43.8h-5.6l-2.3-2.3l20-20l5.1,5.1L-70.6,43.8z"/>
+		
+			<linearGradient id="Rectangle_135_00000075870590137533544270000011557094702182433938_" gradientUnits="userSpaceOnUse" x1="-561.928" y1="436.1812" x2="-561.928" y2="435.1812" gradientTransform="matrix(5.4402 5.4402 5.1202 -5.1202 789.9535 5306.6177)">
+			<stop  offset="0" style="stop-color:#2D013A"/>
+			<stop  offset="1" style="stop-color:#760072"/>
+		</linearGradient>
+		<path id="Rectangle_135" style="fill:url(#Rectangle_135_00000075870590137533544270000011557094702182433938_);" d="M-36.4,13.5
+			L-31,19l-5.1,5.1l-5.4-5.4L-36.4,13.5z"/>
+		
+			<linearGradient id="Rectangle_136_00000021091468364264973080000016551733404724461751_" gradientUnits="userSpaceOnUse" x1="-666.4353" y1="504.8575" x2="-666.4353" y2="503.8575" gradientTransform="matrix(-5.4402 5.4402 5.1202 5.1202 -6258.6978 1061.918)">
+			<stop  offset="1.385225e-07" style="stop-color:#2D013A"/>
+			<stop  offset="1" style="stop-color:#760072"/>
+		</linearGradient>
+		<path id="Rectangle_136" style="fill:url(#Rectangle_136_00000021091468364264973080000016551733404724461751_);" d="M-45.4,18.6
+			l-5.4,5.4l-5.1-5.1l5.4-5.4L-45.4,18.6z"/>
+	</g>
+</g>
+</svg>
